@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+header{
+    border: 1px solid white;
+}
+.container{
+    background-image: url(galaxy.jpeg);
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.but{
+    margin: 15px;
+}
+.but a{
+    border: 1px solid  white;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.box .subitem{
+    padding: 10px;
+}
+.good{
+    padding: 10px;
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin: 40px;
+    padding: 10px;
+}
+.link a{
+    border: 1px solid white;
+    padding: 8px 12px;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+.link{
+    padding: 10px;
+}
+#image{
+    background-image: url(galaxy.jpeg);
+    padding: 50px;
+}
+.center{
+    width: 40%;
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+.services-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.boxx{
+    border: 4px ;
+    background: #eeee;
+    margin:30px;
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+.img1 a{
+    background: grey;
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 8px 8px;
+    border-radius: 10px;
+    color:black;
+}
+.img1 a:hover{
+    border: 1px solid grey;
+    background:transparent;
+}
+.img{
+    width: 32%;
+    max-width: 370px;
+}
+.boxx img{
+    width: 100%;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+}
+.tow img{
+    width: 32%;
+    max-width: 360px;
+}
+img{
+    width: 70%;
+    height: 60%;
+}
+.text h3{
+    padding: 10px;
+}
+.text p{
+    padding: 10px;
+}
+.main-footer{
+    display: flex;
+    flex-direction: column;
+}
+.main-footer{
+    background-image: url(galaxy.jpeg);
+    color: white;
+    padding: 20px 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#foot-item1{
+    padding: 10px;
+    margin: 10px;
+}
+#foot-item2{
+    padding: 20px;
+    margin: 20px;
+}
+.footer a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px 12px;
+    color: white;
+
+}
